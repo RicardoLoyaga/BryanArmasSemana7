@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Semana7.Login">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Bienvenido al Sistema" VerticalTextAlignment="Center" FontSize="40" />
+
+            <Entry x:Name="txtUsuario" Placeholder="Ingrese el Usuario" />
+            <Entry x:Name="txtContrasena" Placeholder="**********" IsPassword="True" />
+
+            <Button x:Name="btnIngresar" Text="Iniciar Sesión" Clicked="btnIngresar_Clicked" BackgroundColor="Green" TextColor="White" CornerRadius="15"/>
+            <Button x:Name="btnRegistrar" Text="Registrarse" Clicked="btnRegistrar_Clicked" BackgroundColor="SkyBlue" TextColor="White" CornerRadius="15"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
